@@ -2,38 +2,98 @@
 <head>
     <title>NeoG component library - Card</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/badge.css" />
     <link rel="stylesheet" href="css/card.css" />
-    <script src="js/scripts.js"></script>
 </head>
 
 <body class="neog-typography">
-    <div class="neog-card" id="variant">
-        <div class="neog-card__body">
-            <div class="neog-card__hero-bg">
-                <h1>neoG.camp</h1>
-                <h3>Component Library</h3>
-            </div>
-            <div class="neog-card__description">
-                <header>
-                    <h4>CARD</h4>
-                    <div class="neog-card__description-header-icons neog-card__align-right">
-                        <i class="fas fa-thumbs-up"></i> 10
-                        <i class="fas fa-eye"></i> 100
-                    </div>
+    <h1 class="neog__demo-pagetitle">Card</h1>
+    <div class="neog__demo-wrapper">
+        <!-- Variant 1-->
+        <div class="neog-card my-2">   
+            <div class="neog-card__body">
+                <div class="neog-card__hero-bg">
+                    <h1>neoG.camp</h1>
+                    <h4>Component Library</h4>
+                </div>
+                <div class="neog-card__description">
+                    <header>
+                        <h4>Assignment 2</h4>
+                        <div class="neog-card__description-header-icons neog-card__align-right">
+                            <i class="fas fa-thumbs-up"></i> 10
+                            <i class="fas fa-eye"></i> 100
+                        </div>
 
-                </header>
-                <p class="small">Done by <b>Balu Dharmaraj</b> from <span>Team C2</span></p>
+                    </header>
+                    <p class="small">Done by <b>Balu Dharmaraj</b> from <span>Team C2</span></p>
+                </div>
+            </div>
+            <div class="neog-card__footer">
+                <p>Tags: </p>
+                <span class="neog-badge success">HTML</span>
+                <span class="neog-badge warning">CSS</span>
+                <span class="neog-badge primary">FLEX</span>
             </div>
         </div>
-        <div class="neog-card__footer">
-            <p>Variant: </p>
-            <button title="Basic" onclick="changeVariant1()" name="btn">1</button>
-            <button title="Horizontal image and text" onclick="changeVariant2()" name="btn">2</button>
-            <a class="neog-card__link-button neog-card__align-right">More</a>
+        <!-- Variant 2-->
+        <div class="neog-card my-2">   
+            <header class="neog-card__header">
+                <h4>CARD</h4>
+                <div class="neog-card__close"><i class="fas fa-times fa-lg"></i></div>
+            </header>     
+            <div class="neog-card__body">
+                <div class="neog-card__media-fullwidth neog-card__background-img"></div>  
+                <div class="neog-card__description">
+                    <header>
+                        <h4>Assignment 2</h4>
+                        <div class="neog-card__description-header-icons neog-card__align-right">
+                            <i class="fas fa-thumbs-up"></i> 10
+                            <i class="fas fa-eye"></i> 100
+                        </div>
+
+                    </header>
+                    <p class="small">Done by <b>Balu Dharmaraj</b> from <span>Team C2</span></p>
+                </div>
+            </div>
+            <div class="neog-card__footer">
+                <p>Tags: </p>
+                <span class="neog-badge success">HTML</span>
+                <span class="neog-badge warning">CSS</span>
+                <span class="neog-badge primary">FLEX</span>
+            </div>
+        </div>
+        <!-- Variant 3-->  
+        <div class="neog-card variant2 my-2">
+            <header class="neog-card__header">
+                <h4>CARD</h4>
+                <div class="neog-card__close"><i class="fas fa-times fa-lg"></i></div>
+            </header> 
+            <div class="neog-card__body">
+                <div class="neog-card__hero-bg">
+                    <h1>neoG.camp</h1>
+                    <h5>Component Library</h5>
+                </div>
+                <div class="neog-card__description">
+                    <header>
+                        <h4>Assignment 2</h4>
+                        <div class="neog-card__description-header-icons neog-card__align-right">
+                            <i class="fas fa-thumbs-up"></i> 10
+                            <i class="fas fa-eye"></i> 100
+                        </div>
+
+                    </header>
+                    <p class="small">Done by <b>Balu Dharmaraj</b> from <span>Team C2</span></p>
+                </div>
+            </div>
+            <div class="neog-card__footer">
+                <p>Tags: </p>
+                <span class="neog-badge success">HTML</span>
+                <span class="neog-badge warning">CSS</span>
+                <span class="neog-badge primary">FLEX</span>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
