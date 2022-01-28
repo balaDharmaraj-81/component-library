@@ -1,0 +1,25 @@
+/*Badge*/
+.neog-badge{
+    display: inline-block;
+    color: var(--neog-white);
+    padding: 0.25em 0.4em;
+    font-size: var(--neog-fontsize-small);
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--neog-border-radius-small);
+}
+.neog-badge.primary{
+    background-color: var(--neog-primary);
+}
+.neog-badge.success{
+    background-color: var(--neog-success);
+}
+.neog-badge.warning{
+    background-color: var(--neog-warning);
+}
+.neog-badge.info{
+    background-color: var(--neog-info);
+}

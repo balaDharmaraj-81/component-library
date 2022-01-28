@@ -1,0 +1,134 @@
+/*card*/
+.neog-card {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: var(--neog-white);
+  box-shadow: var(--neog-box-shadow);
+  width: 20rem;
+  border-radius: var(--neog-border-radius-small);
+  position: relative;
+}
+
+.neog-card__header{
+  padding: 1rem;
+  border-bottom: 1px solid var(--neog-lynx-grey);
+  display: flex;
+  color: var(--neog-grey);
+}
+
+.neog-card__close{
+  margin-left: auto;
+}
+
+.neog-card__header h3 {
+  font-size: var(--neog-fontsize-default);
+  font-weight: var(--neog-text-regular);
+  color: var(--neog-grey);
+}
+
+
+.neog-card__hero-bg {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 14.5rem;
+  background-color: var(--neog-yellow);
+  color: var(--neog-white);
+  width: 100%;
+}
+
+.neog-card__hero-bg h4{
+    font-weight: var(--neog-text-regular);
+    letter-spacing: 0.45rem;
+}
+
+.neog-card__media-fullwidth {
+  width: 100%;
+}
+
+.neog-card__media-fullwidth img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 12.5rem;
+}
+
+.neog-card__media-fullwidth.neog-card__background-img{
+  background-image: url(https://picsum.photos/id/0/320/232/);
+  background-repeat: no-repeat;
+  height: 14.5rem;
+}
+
+.neog-card__description {
+  padding: 1rem 1rem 0.5rem;
+  line-height: 1.5rem;
+}
+
+.neog-card__description header{
+  display: flex;
+  align-items: center;
+  font-size: var(--neog-fontsize-default);
+}
+
+.neog-card__description-header-icons > *{
+  margin-left: 0.5rem;
+}
+
+.neog-card__description header i{
+  color: var(--neog-grey);
+}
+
+.neog-card__description p {
+  color: var(--neog-grey);
+  font-size: var(--neog-fontsize-small);
+}
+
+.neog-card__description p span{
+    color: var(--neog-violet);
+    font-weight: var(--neog-text-semibold);
+}
+
+.neog-card__footer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0 1rem 1rem;
+  align-items: center;
+}
+
+.neog-card__footer > * {
+  margin-right: 0.25rem;
+  font-size: var(--neog-fontsize-small);
+}
+
+.neog-card__footer > :last-child {
+  margin-right: 0;
+}
+
+
+.neog-card__align-right{
+  margin-left: auto; 
+}
+
+/*variant 2*/
+.neog-card.variant2 .neog-card__body{
+  display: flex;
+}
+
+.neog-card.variant2 .neog-card__hero-bg{
+  width: 6rem;
+  height: 6rem;  
+  background-color: var(--neog-pink);
+}
+
+.neog-card.variant2 .neog-card__hero-bg h1{
+  font-size: var(--neog-fontsize-default);
+}
+
+.neog-card.variant2 .neog-card__hero-bg h5{
+  display: none;
+}
+
+.neog-card.variant2 .neog-card__footer{
+  padding: 1rem;
+  border-top: 1px solid var(--neog-lynx-grey);
+}
