@@ -1,0 +1,21 @@
+
+.neog__demo-pagetitle{
+    font-weight: var(--neog-text-regular);
+    border-bottom: 1px solid var(--neog-lynx-grey);
+}
+
+.neog__demo-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/*buttons*/
+.neog__demo-wrapper-buttons{
+    display: flex;
+    align-items: flex-start;
+}
+
+.neog__demo-wrapper-buttons > .neog__button{
+    margin-right: 1rem;
+}
