@@ -1,0 +1,180 @@
+/*Buttons*/
+.neog__button{
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    outline: 0;
+    background-color: transparent;
+    font-weight: var(--neog-text-semibold);
+    font-size: var(--neog-fontsize-default);
+    cursor: pointer;
+    border: none;
+}
+
+.neog__button.icon-left i{
+    margin-right: 0.5rem;
+}
+
+.neog__button.icon-right i{
+    margin-left: 0.5rem;
+}
+
+.neog__button.primary{
+    color: var(--neog-white);
+    background-color: var(--neog-primary);    
+}
+
+.neog__button.primary:hover{
+    background-color: var(--neog-red-2);
+}
+
+.neog__button.primary.outline{
+    border: 1px solid var(--neog-primary);   
+}
+
+.neog__button.primary.outline, .neog__button.primary.hollow{
+    color: var(--neog-primary);
+    background-color: transparent;
+}
+
+.neog__button.primary.outline:hover, .neog__button.primary.hollow:hover{
+    color: var(--neog-white);
+    background-color: var(--neog-red-2);
+}
+
+.neog__button.secondary{
+    color: var(--neog-white);
+    background-color: var(--neog-grey-8); 
+}
+
+.neog__button.secondary:hover{
+    background-color: var(--neog-grey-10); 
+}
+
+.neog__button.secondary.outline{
+    border: 1px solid var(--neog-grey-8);
+}
+
+
+.neog__button.secondary.outline, .neog__button.secondary.hollow{
+    color: var(--neog-grey-8);
+    background-color: transparent;
+}
+
+.neog__button.secondary.outline:hover, .neog__button.secondary.hollow:hover{
+    background-color: var(--neog-grey-1); 
+}
+
+.neog__button.default{
+    color: var(--neog-black);
+    background-color: var(--neog-white); 
+}
+
+.neog__button.default:hover{
+    background-color: var(--neog-lynx-white); 
+}
+
+
+.neog__button.cta{
+    color: var(--neog-black);
+    background-color: var(--neog-yellow); 
+}
+
+.neog__button.cta:hover{
+    background-color: var(--neog-yellow-2); 
+}
+
+.neog__button.cta.outline{
+    border: 1px solid var(--neog-yellow);
+}
+
+.neog__button.cta.outline, .neog__button.cta.hollow{
+    color: var(--neog-yellow);
+    background-color: transparent;
+}
+
+.neog__button.cta.outline:hover, .neog__button.cta.hollow:hover{
+    background-color: var(--neog-yellow-3);
+}
+
+.neog__button.warning{
+    color: var(--neog-white);
+    background-color: var(--neog-error); 
+}
+
+.neog__button.warning:hover{
+    background-color: var(--neog-red-2); 
+}
+
+.neog__button.warning.outline{
+    border: 1px solid var(--neog-error);
+}
+
+.neog__button.warning.outline, .neog__button.warning.hollow{
+    color: var(--neog-error);
+    background-color: transparent;
+}
+
+.neog__button.warning.outline:hover, .neog__button.warning.hollow:hover{
+    background-color: var(--neog-red-3); 
+}
+
+.neog__button.grey{
+    color: var(--neog-white);
+    background-color: var(--neog-grey); 
+}
+
+.neog__button.grey:hover{
+    color: var(--neog-black);
+    background-color: var(--neog-grey2); 
+}
+
+.neog__button.grey.outline{
+    border: 1px solid var(--neog-grey);
+}
+
+.neog__button.grey.outline, .neog__button.grey.hollow{
+    color: var(--neog-grey);
+    background-color: transparent;
+}
+
+.neog__button.grey.outline:hover, .neog__button.grey.hollow:hover{
+    background-color: var(--neog-grey-1); 
+}
+
+.neog__button.small{
+    padding:0.5rem;
+    font-size: var(--neog-fontsize-small);
+    height: 2rem;
+}
+
+.neog__button.large{
+    padding: 1rem;
+    height: 3rem;
+}
+
+.neog__button.full-width{
+    width: 100%;
+    display: block;
+}
+
+.neog__button.disabled{
+    opacity:0.5;
+    cursor: not-allowed;
+}
+
+.neog__button.float{    
+    position:fixed;   
+    right:1rem;
+    bottom:2rem;    
+    border-radius: var(--neog-border-radius-full);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+

@@ -1,0 +1,43 @@
+/*Alerts*/
+
+.neog__alert{
+    background-color: transparent;
+    font-size: var(--neog-fontsize-smal);
+}
+
+.neog__alert .neog__button{
+    color: var(--neog-white);
+}
+
+.neog__alert .small{
+    padding: 0.5rem 0.75rem;
+}
+
+.neog__alert.info{
+    color: var(--neog-action);
+    background-color: var(--neog-blue-2);
+}
+
+.neog__alert.warning{
+    color: var(--neog-warning);
+    background-color: var( --neog-yellow-3);
+
+}
+
+.neog__alert.error{
+    color: var(--neog-error);
+    background-color: var(--neog-red-3);
+}
+
+.neog__alert.success{
+    color: var(--neog-success);
+    background-color: #d1fae5;
+}
+
+.neog__button.success{
+    background-color: var(--neog-success);
+}
+
+.neog__alert .neog__button.grey:hover{
+    background-color: var(--neog-white);
+}

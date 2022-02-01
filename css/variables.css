@@ -1,0 +1,63 @@
+:root {
+    /*branding colors*/
+    --neog-primary: #991b1b;
+    --neog-secondary: #fff6ea;
+    --neog-action: #3b82f6;
+    --neog-action-hover: #dbeafe;
+  
+    --neog-grey: #9a9a9a;
+    --neog-grey-0: #eaeaef;
+    --neog-grey-1: #e2e2e7;
+    --neog-grey-2: #d0d0d7;
+    --neog-grey-3: #bfbfc6;
+    --neog-grey-4: #aeaeb6;
+    --neog-grey-5: #9d9da6;
+    --neog-grey-6: #8c8b96;
+    --neog-grey-7: #7b7a86;
+    --neog-grey-8: #6a6976;
+    --neog-grey-9: #595868;
+    --neog-grey-10: #474655;
+    --neog-lynx-grey: #c5c5c5;
+    --neog-black: #282828;
+  
+    --neog-white: #fff;
+    --neog-lynx-white: #f7f7f7;
+  
+    --neog-violet: #5348c7;
+  
+    --neog-red-2: #dc2626;
+    --neog-red-3: #fee2e2;
+  
+    --neog-yellow: #fbbf24;
+    --neog-yellow-2: #fcd34d;
+    --neog-yellow-3: #fef3c7;
+  
+    --neog-pink: #db2777;
+  
+    --neog-success: #10b981;
+    --neog-error: #ff3b30;
+    --neog-warning: #f59e0b;
+    --neog-info: var(--neog-action);
+
+    --neog-blue-1: #e5f0f8;
+    --neog-blue-2: #dbeafe;
+
+    --neog-green-1: #34d399;
+    
+
+  
+    /*typography - Font-weight*/
+    --neog-text-semibold: 600;
+    --neog-text-regular: 400;
+  
+    /*typography - Text*/
+    --neog-fontsize-default: 0.875rem;
+    --neog-fontsize-small: 0.75rem;
+  
+    /*box-shadow*/
+    --neog-box-shadow: 0 0 0.25rem var(--neog-lynx-grey);
+  
+    /*border-radius*/
+    --neog-border-radius-small: 0.25rem;
+    --neog-border-radius-full: 50%;
+  }
