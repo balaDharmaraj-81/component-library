@@ -19,3 +19,16 @@
 .neog__demo-wrapper-buttons > .neog__button{
     margin-right: 1rem;
 }
+
+.neog__demo-navigation li a{
+    background-color: var(--neog-primary);  
+    border: 1px solid var(--neog-white); 
+    color: var(--neog-white); 
+    display: flex;
+    text-decoration: none;
+}
+
+.neog__demo-navigation li a:hover{
+    background-color: var(--neog-red-2);
+    text-decoration: underline;
+}

@@ -5,6 +5,10 @@
     position: relative;
 }
 
+ul, li{
+    list-style: none;
+}
+
 body{
     font-size: 1rem;
     margin: 1rem;
