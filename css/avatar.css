@@ -1,0 +1,65 @@
+
+.neog__avatar {
+    border-radius: var(--neog-border-radius-full);
+    border: 1px solid var(--neog-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--neog-text-semibold);
+    color: var(--neog-white);
+}
+.neog__avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--neog-border-radius-full);
+    object-fit: cover;
+    object-position: top;
+}
+
+.neog__avatar .neog__badge{
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+}
+
+.neog__avatar.xl{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+
+.neog__avatar.lg{
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.neog__avatar.md{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+
+.neog__avatar.sm{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.neog__avatar.sm .neog__badge{
+    top: -0.35rem;
+    right: -0.35rem;
+}
+
+.neog__avatar.xs{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.neog__avatar.xs .neog__badge{
+    top: -0.75rem;
+    right: -0.75rem;
+}
+

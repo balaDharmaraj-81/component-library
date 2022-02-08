@@ -1,25 +1,31 @@
 /*Badge*/
-.neog-badge{
-    display: inline-block;
+.neog__badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--neog-white);
-    padding: 0.25em 0.4em;
+    width: 1.5rem;
+    height: 1.5rem;
     font-size: var(--neog-fontsize-small);
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
+    font-weight: var(--neog-text-semibold);
     border-radius: var(--neog-border-radius-small);
 }
-.neog-badge.primary{
+
+.neog__badge.circle{
+    border-radius: var(--neog-border-radius-full);
+}
+.neog__badge.primary{
     background-color: var(--neog-primary);
 }
-.neog-badge.success{
+.neog__badge.success{
     background-color: var(--neog-success);
 }
-.neog-badge.warning{
+.neog__badge.warning{
     background-color: var(--neog-warning);
 }
-.neog-badge.info{
+.neog__badge.info{
     background-color: var(--neog-info);
+}
+.neog__badge.error{
+    background-color: var(--neog-error);
 }
