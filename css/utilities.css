@@ -460,3 +460,19 @@ h5 {
 .bg-action-blue:hover{
   background-color: var(--neog-action-hover) !important;
 }
+
+.bg-primary{
+  background-color: var(--neog-primary);
+}
+.bg-success{
+  background-color: var(--neog-success);
+}
+.bg-warning{
+  background-color: var(--neog-warning);
+}
+.bg-info{
+  background-color: var(--neog-info);
+}
+.bg-error{
+  background-color: var(--neog-error);
+}
