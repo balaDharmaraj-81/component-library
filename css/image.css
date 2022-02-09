@@ -1,0 +1,30 @@
+.responsive-img img {
+  width: 100%;
+  height: 100%;
+}
+
+img.cover{
+    object-fit: cover;
+}
+
+.responsive-bg-img {
+  width: 100%;
+  height: 18rem;
+  background-image: url("../images/guitar.jpg");
+  background-repeat: no-repeat;
+}
+
+.responsive-bg-img.contain{
+    background-size: contain;
+}
+
+.responsive-bg-img.cover{
+    background-size: cover;
+}
+
+.responsive-bg-img.stretch{
+    background-size: 100% 100%;
+}
+
+
+
