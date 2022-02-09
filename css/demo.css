@@ -32,3 +32,21 @@
     background-color: var(--neog-red-2);
     text-decoration: underline;
 }
+
+.w-15-rem{
+    width: 250px;
+}
+.w-30-rem{
+    width: 500px;
+}
+
+.w-100{
+    width: 100%;
+}
+.mxw-100{
+    max-width: 100%;
+}
+
+.h-25-rem{
+    height: 25rem;
+}
