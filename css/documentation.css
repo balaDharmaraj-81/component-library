@@ -1,0 +1,75 @@
+
+.wrapper .site-border{
+  background-color: var(--neog-red-2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  z-index: 1;
+}
+
+.logo{
+    color: var(--neog-primary);
+    background-color: var(--neog-white);
+    width: 8.25rem;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border: 5px solid var(--neog-red-2);
+    border-top: 0;
+}
+
+.logo h4{
+    color: var(--neog-black);
+}
+
+.neog__navigation {
+  width: 16rem;
+  position: fixed;
+  height: 100vh;
+  background-color: var(--neog-primary);
+}
+
+.page__wrapper {
+  margin-left: 16rem;
+  width: 100%;
+}
+
+.page__wrapper header.page__header{
+    height: 15rem;
+    background-color: var(--neog-grey-7);
+    color: var(--neog-white);    
+}
+
+.page__wrapper pre{
+    border: 1px solid var(--neog-grey-2);
+    padding: 1rem;
+    color: var(--neog-grey-5);
+}
+
+.neog__navigation li a {
+  background-color: var(--neog-primary);
+  color: var(--neog-white);
+  display: flex;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.neog__navigation li a i{
+    color: var(--neog-white);
+    margin-right: 1rem;
+}
+
+.neog__navigation li a:hover,  .neog__navigation li a.active{
+  background-color: var(--neog-red-2);
+}
+
+article h4.page__subtitle{
+    border-bottom: 1px solid var(--neog-grey-2);
+    margin-bottom: 1rem;
+}
+
+
+  

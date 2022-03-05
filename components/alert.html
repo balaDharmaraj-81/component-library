@@ -1,34 +1,84 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>NeoG component library - Alerts</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoG Component Library</title>
     <link rel="stylesheet" href="../css/neog-styles.css" />
 </head>
-
 <body class="neog-typography">
-    <h4><a href="../index.html">Back to Home</a></h4>
-    <h1 class="neog__demo-pagetitle my-2">Alerts</h1>
-    <div>
-        <h3 class="my-2">Alert with text</h3>
-        <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Info</div>
-        <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Warning</div>
-        <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Error</div>
-        <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Success</div>
-    </div>
-    <div>
-        <h3 class="my-2">Alert with action button</h3>
-        <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold d-flex"><span>Info</span><button class="neog__button bg-action-blue border-radius-small small ml-auto">Action</button></div>
-        <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Warning</span><button class="neog__button cta small border-radius-small ml-auto">Action</button></div>
-        <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Error</span><button class="neog__button warning small border-radius-small ml-auto">Action</button></div>
-        <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Success</span><button class="neog__button success small border-radius-small ml-auto">Action</button></div>
-    </div>
-
-    <div>
-        <h3 class="my-2">Alert with close button</h3>
-        <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold d-flex"><span>Info</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i class="fas fa-times"></i></button></div>
-        <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Warning</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i class="fas fa-times"></i></button></div>
-        <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Error</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i class="fas fa-times"></i></button></div>
-        <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold"><span>Success</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i class="fas fa-times"></i></button></div>
+    <div class="wrapper d-flex">
+        <nav class="neog__navigation">
+            <div class="logo mb-4 text-align-center">
+                <h2>neoG</h2>
+                <h4>Components<br /> Library</h4>
+            </div>
+            <ul>
+                <li><a href="../documentation.html"><span>Home</span></a></li>
+                <li><a href="avatar.html"><span>Avatars</span>   </a></li>
+                <li><a href="#" class="active"><span>Alerts</span></a></li>
+                <li><a href="badge.html"><span>Badges</span></a></li>
+                <li><a href="buttons.html"><span>Buttons</span></a></li>
+                <li><a href="card.html"><span>Cards</span></a></li>
+                <li><a href="image.html"><span>Images</span></a></li>
+                <li><a href="input.html"><span>Inputs</span></a></li>
+            </ul>
+        </nav>
+        <div class="page__wrapper">
+            <header class="page__header d-flex flex-column-center">
+                <h1>ALERTS</h1>
+                <span>Contextual feedback messages based on user actions</span>
+            </header>
+            <article class="m-4">
+                <h4 class="page__subtitle">Basic Usage</h4>
+                <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Info</div>
+                <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Warning
+                </div>
+                <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Error</div>
+                <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold">Success
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Alert with buttons</h4>
+                <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold d-flex">
+                    <span>Info</span><button
+                        class="neog__button bg-action-blue border-radius-small small ml-auto">Action</button>
+                </div>
+                <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Warning</span><button
+                        class="neog__button cta small border-radius-small ml-auto">Action</button>
+                </div>
+                <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Error</span><button
+                        class="neog__button warning small border-radius-small ml-auto">Action</button>
+                </div>
+                <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Success</span><button
+                        class="neog__button success small border-radius-small ml-auto">Action</button>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Alert with close button</h4>
+                <div class="neog__alert info flex-row-center px-3 py-2 my-2 border-radius-small text-bold d-flex">
+                    <span>Info</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <div class="neog__alert warning flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Warning</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <div class="neog__alert error flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Error</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <div class="neog__alert success flex-row-center px-3 py-2 my-2 border-radius-small text-bold">
+                    <span>Success</span><button class="neog__button grey hollow small border-radius-full ml-auto"><i
+                            class="fas fa-times"></i></button>
+                </div>
+            </article>
+        </div>
     </div>
 </body>
 </html>

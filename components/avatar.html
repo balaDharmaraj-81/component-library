@@ -1,34 +1,68 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>NeoG component library - Alerts</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoG Component Library</title>
     <link rel="stylesheet" href="../css/neog-styles.css" />
 </head>
-
 <body class="neog-typography">
-    <h4><a href="../index.html">Back to Home</a></h4>
-    <h1 class="neog__demo-pagetitle my-2">Avatar</h1>
-    <div>
-        <h3 class="my-2">Image avatar</h3>
-        <div class="flex-row-h-center">
-            <div class="neog__avatar xl shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /><span class="neog__badge success circle"></span></div>
-            <div class="neog__avatar lg shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
-            <div class="neog__avatar md shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
-            <div class="neog__avatar sm shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
-            <div class="neog__avatar xs shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
-        </div>
-    </div>
-
-    <div>
-        <h3 class="my-2">Text avatar</h3>
-        <div class="flex-row-h-center">
-            <div class="neog__avatar xl shadow-large mr-2 bg-primary">DB<span class="neog__badge success">10</span></div>
-            <div class="neog__avatar lg shadow-large mr-2 bg-success">B<span class="neog__badge warning circle">1</span></div>
-            <div class="neog__avatar md shadow-large mr-2 bg-warning">B<span class="neog__badge error circle"></span></div>
-            <div class="neog__avatar sm shadow-large mr-2 bg-info">B<span class="neog__badge success circle">2</span></div>
-            <div class="neog__avatar xs shadow-large mr-2 bg-error">B<span class="neog__badge warning circle">3</span></div>
+    <div class="wrapper d-flex">
+    <div class="site-border"></div>
+        <nav class="neog__navigation">
+            <div class="logo mb-4 text-align-center">
+                <h2>neoG</h2>
+                <h4>Components<br /> Library</h4>
+            </div>
+            <ul>
+                <li><a href="../documentation.html"><span>Home</span></a></li>
+                <li><a href="#" class="active"><span>Avatars</span>   </a></li>
+                <li><a href="alert.html"><span>Alerts</span></a></li>
+                <li><a href="badge.html"><span>Badges</span></a></li>
+                <li><a href="buttons.html"><span>Buttons</span></a></li>
+                <li><a href="card.html"><span>Cards</span></a></li>
+                <li><a href="image.html"><span>Images</span></a></li>
+                <li><a href="input.html"><span>Inputs</span></a></li>
+            </ul>
+        </nav>
+        <div class="page__wrapper">
+            <header class="page__header d-flex flex-column-center">
+                <h1>AVATARS</h1>
+                <span>Avatars are user profile pictures</span>
+            </header>
+            <article class="m-4">
+                <h4 class="page__subtitle">Image avatar</h4>
+                <div class="flex-row-h-center">
+                    <div class="neog__avatar xl shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
+                    <div class="neog__avatar lg shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
+                    <div class="neog__avatar md shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
+                    <div class="neog__avatar sm shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
+                    <div class="neog__avatar xs shadow-large mr-2"><img src="https://picsum.photos/id/1025/200/300" /></div>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Text avatar with badge</h4>
+                <div class="flex-row-h-center">
+                    <div class="neog__avatar xs shadow-large mr-2 bg-error">B<span class="neog__badge warning circle">3</span></div>
+                    <div class="neog__avatar sm shadow-large mr-2 bg-info">B<span class="neog__badge success circle">2</span></div>
+                    <div class="neog__avatar md shadow-large mr-2 bg-warning">B<span class="neog__badge error circle"></span></div>
+                    <div class="neog__avatar lg shadow-large mr-2 bg-success">B<span class="neog__badge warning circle">1</span></div>
+                    <div class="neog__avatar xl shadow-large mr-2 bg-primary">DB<span class="neog__badge success">10</span></div>
+                </div>
+            </article>
+            <article class="m-4">   
+                <h4 class="page__subtitle">Default icon for avatar</h4>
+                <div class="flex-row-h-center">
+                    <div class="neog__avatar xl shadow-large mr-2 bg-primary"><i class="fas fa-user"></i></div>
+                    <div class="neog__avatar lg shadow-large mr-2 bg-success"><i class="fas fa-user"></i></div>
+                    <div class="neog__avatar md shadow-large mr-2 bg-warning"><i class="fas fa-user"></i></div>
+                    <div class="neog__avatar sm shadow-large mr-2 bg-info"><i class="fas fa-user"></i></div>
+                    <div class="neog__avatar xs shadow-large mr-2 bg-error"><i class="fas fa-user"></i></div>
+                </div>
+            </article>
         </div>
     </div>
 </body>
-
 </html>

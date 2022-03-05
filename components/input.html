@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoG Component Library</title>
+    <link rel="stylesheet" href="../css/neog-styles.css" />
+</head>
+<body class="neog-typography">
+    <div class="wrapper d-flex">
+        <nav class="neog__navigation">
+            <div class="logo mb-4 text-align-center">
+                <h2>neoG</h2>
+                <h4>Components<br /> Library</h4>
+            </div>
+            <ul>
+                <li><a href="../documentation.html"><span>Home</span></a></li>
+                <li><a href="avatar.html"><span>Avatars</span>   </a></li>
+                <li><a href="alert.html"><span>Alerts</span></a></li>
+                <li><a href="badge.html"><span>Badges</span></a></li>
+                <li><a href="buttons.html"><span>Buttons</span></a></li>
+                <li><a href="card.html"><span>Cards</span></a></li>
+                <li><a href="image.html"><span>Images</span></a></li>
+                <li><a href="#" class="active"><span>Inputs</span></a></li>
+            </ul>
+        </nav>
+        <div class="page__wrapper">
+            <header class="page__header d-flex flex-column-center">
+                <h1>Form controls - Input</h1>
+                <span>Examples and usage guidelines for form controls and their states</span>
+            </header>
+            <article class="m-4">
+                <h4 class="page__subtitle">Input with Label</h4>
+                <div class="form-field-group">
+                    <label>Email</label>
+                    <div class="form-element input"><input type="text" placeholder="Your Email"/></div>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Input on focus</h4>
+                <div class="form-field-group">
+                    <label>Email</label>
+                    <div class="form-element input focus"><input type="text" placeholder="Your Email"/></div>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Input on error</h4>
+                <div class="form-field-group">
+                    <label>Email</label>
+                    <div class="form-element error input"><input type="text" placeholder="Your Email"/></div>
+                    <div class="form-error-message show">Email is not valid <i class="fas fa-exclamation-triangle fa-2x"></i></div>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Input on disabled</h4>
+                <div class="form-field-group">
+                    <label>Email</label>
+                    <div class="form-element input"><input type="text" placeholder="Your Email" disabled/></div>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoG Component Library</title>
+    <link rel="stylesheet" href="../css/neog-styles.css" />
+</head>
+
+<body class="neog-typography">
+    <div class="wrapper d-flex">
+        <nav class="neog__navigation">
+            <div class="logo mb-4 text-align-center">
+                <h2>neoG</h2>
+                <h4>Components<br /> Library</h4>
+            </div>
+            <ul>
+                <li><a href="../documentation.html"><span>Home</span></a></li>
+                <li><a href="avatar.html"><span>Avatars</span> </a></li>
+                <li><a href="alert.html"><span>Alerts</span></a></li>
+                <li><a href="badge.html"><span>Badges</span></a></li>
+                <li><a href="buttons.html"><span>Buttons</span></a></li>
+                <li><a href="card.html"><span>Cards</span></a></li>
+                <li><a href="#" class="active"><span>Images</span></a></li>
+                <li><a href="input.html"><span>Inputs</span></a></li>
+            </ul>
+        </nav>
+        <div class="page__wrapper">
+            <header class="page__header d-flex flex-column-center">
+                <h1>Responsive Images</h1>
+                <span>Images that work well on devices with widely differing screen sizes</span>
+            </header>
+            <article class="m-4">
+                <h4 class="page__subtitle">Image with Max width</h4>
+                <div class="d-flex">
+                    <div class="responsive-img w-15-rem h-25-rem mr-5">
+                        <img src="../images/cherry.jpg" alt="Responsive" class="cover">
+                    </div>
+                    <div class="responsive-img w-30-rem h-25-rem mr-5">
+                        <img src="../images/cherry.jpg" alt="Responsive" class="cover">
+                    </div>
+                    <div class="responsive-img w-100 h-25-rem mr-5">
+                        <img src="../images/cherry.jpg" alt="Responsive" class="cover">
+                    </div>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Image with SRCSET <span class="text-small">(Image will changed based on viewport width
+                        only)</span></h4>
+                <div class="d-flex">
+                    <picture class="w-15-rem">
+                        <source srcset="../images/parrot.jpg" media="(max-width: 300px)">
+                        <source srcset="../images/peacock.jpg">
+                        <img src="../images/peacock.jpg" alt="Responsive" width="100%" height="300" class="cover">
+                    </picture>
+                    <picture class="w-100">
+                        <source srcset="../images/parrot.jpg" media="(max-width: 200px)">
+                        <source srcset="../images/peacock.jpg">
+                        <img src="../images/peacock.jpg" alt="Responsive" width="100%" height="300" class="cover">
+                    </picture>
+                </div>
+            </article>
+            <article class="m-4">
+                <h4 class="page__subtitle">Background Images</h4>
+                <div class="d-flex">
+                    <div class="responsive-bg-img contain w-15-rem h-25-rem mr-3"></div>
+                    <div class="responsive-bg-img stretch w-30-rem h-25-rem mr-3"></div>
+                    <div class="responsive-bg-img cover w-100 h-25-rem mr-3"></div>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>
